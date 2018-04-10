@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="author" content="Husnul Anwari">
+<meta name="description" content="Introduction Do you want to start a blog to share your latest adventures with various software frameworks? Do you love a project that is poorly documented and want to fix that? Or do you just want to create a personal website? But you don&rsquo;t have time to build it, setup the database, and creating a theme. The answer is Hugo — with Hugo you could build your own blog in minutes.">
+
+<meta property="og:title" content="How To Create a Blog with Hugo and Github" />
+<meta property="og:description" content="Introduction Do you want to start a blog to share your latest adventures with various software frameworks? Do you love a project that is poorly documented and want to fix that? Or do you just want to create a personal website? But you don&rsquo;t have time to build it, setup the database, and creating a theme. The answer is Hugo — with Hugo you could build your own blog in minutes." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://husnulanwari.github.io/blog/how-to-create-a-blog-with-hugo-and-github/" />
+
+
+
+<meta property="article:published_time" content="2018-04-09T08:51:07&#43;07:00"/>
+
+<meta property="article:modified_time" content="2018-04-09T08:51:07&#43;07:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<title>
+
+
+     How To Create a Blog with Hugo and Github 
+
+</title>
+<link rel="canonical" href="https://husnulanwari.github.io/blog/how-to-create-a-blog-with-hugo-and-github/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/atom-one-dark.min.css">
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="https://husnulanwari.github.io/css/reset.css?t=2018-04-10%2007%3a06%3a10.466567439%20%2b0700%20WIB%20m%3d%2b0.043063370">
+    <link rel="stylesheet" href="https://husnulanwari.github.io/css/pygments.css?t=2018-04-10%2007%3a06%3a10.466567439%20%2b0700%20WIB%20m%3d%2b0.043063370">
+    <link rel="stylesheet" href="https://husnulanwari.github.io/css/main.css?t=2018-04-10%2007%3a06%3a10.466567439%20%2b0700%20WIB%20m%3d%2b0.043063370">
+    
+        <link rel="stylesheet" href="https://husnulanwari.github.io/css/override.css?t=2018-04-10%2007%3a06%3a10.466567439%20%2b0700%20WIB%20m%3d%2b0.043063370">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="https://husnulanwari.github.io/img/leaf.ico"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+<section class="header">
+    <div class="container">
+        <div class="content">
+            
+                
+                
+                
+                
+                
+                    
+                
+                
+                <a href="https://husnulanwari.github.io/"><img class="avatar" src="https://husnulanwari.github.io/img/profile.jpeg" srcset="https://husnulanwari.github.io/img/profile.jpeg 1x"></a>
+            
+            <a href="https://husnulanwari.github.io/"><div class="name">Husnul Anwari</div></a>
+            
+              <h3 class="self-intro">Currently Web developer and learning DevOps for Skyshi! I also play video games and tinker with stuff.</h3>
+            
+            <nav>
+                <ul>
+                    
+                        <li class="nav-blog"><a href="https://husnulanwari.github.io/blog/"><span>Blog</span></a></li>
+                    
+                        <li class="nav-about"><a href="https://husnulanwari.github.io/about/"><span>About</span></a></li>
+                    
+                        <li class="nav-code"><a href="https://husnulanwari.github.io/code/"><span>Code</span></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+        
+            <a href="//github.com/husnulhamidiah" target="_blank" rel="noopener"><img class="icon" src="https://husnulanwari.github.io/img/github.svg" alt="github" /></a>
+        
+
+        
+            <a href="//twitter.com/husnulanwari" target="_blank" rel="noopener"><img class="icon" src="https://husnulanwari.github.io/img/twitter.svg" alt="twitter" /></a>
+        
+
+	
+
+        
+
+        
+
+        
+            <a href="//linkedin.com/in/husnulanwari" target="_blank" rel="noopener"><img class="icon" src="https://husnulanwari.github.io/img/linkedin.svg" alt="linkedin" /></a>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            <a href="mailto:husnulhamidiah@gmail.com"><img class="icon" src="https://husnulanwari.github.io/img/email.svg" alt="email" /></a>
+        
+
+        
+
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    How To Create a Blog with Hugo and Github
+
+</div>
+
+                    <div class="initials"><a href="https://husnulanwari.github.io/">ad</a></div>
+                </div>
+                <div class="meta">
+                    
+                    <div class="date" title='Mon Apr 9 2018 08:51:07 WIB'>Apr 9, 2018</div>
+                    
+                    
+		    <div class="reading-time"><div class="middot"></div>6 minutes read</div>
+                    
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Do you want to start a blog to share your latest adventures with various software frameworks? Do you love a project that is poorly documented and want to fix that? Or do you just want to create a personal website? But you don&rsquo;t have time to build it, setup the database, and creating a theme. The answer is <a href="https://gohugo.io">Hugo</a> — with Hugo you could build your own blog in minutes.</p>
+
+<p><a href="https://gohugo.io">Hugo</a> is one of the most popular open-source static site generators written in Go a.k.a <a href="https://golang.org">Golang</a>. It offers simplicity in building a website while maintaining a good performance and flexibility. Unlike other blogging platform, there is no database, no plugins requiring any permissions, and no underlying platform running on your server, there&rsquo;s no added security concern.</p>
+
+<p>Themes — both the official ones that the Hugo team maintains as well as the community-contributed ones — has a wide range of selection that you can pick based on your need.</p>
+
+<p>Some of the most popular choices include:</p>
+
+<ul>
+<li><a href="https://github.com/budparr/gohugo-theme-ananke">Ananke</a> - The intent of this theme is to provide a solid starting place for Hugo sites with basic features and include best practices for performance, accessibility, and rapid development.</li>
+<li><a href="https://github.com/jeblister/kube">Kube</a> - A professional and a responsive Hugo theme for developers and designers that offers a documentation section mixed with a landing page and a blog.</li>
+<li><a href="https://github.com/kishaningithub/hugo-creative-portfolio-theme">Creative portfolio</a> - A clean and elegant template mainly made for designers and creatives but can be easily transformed into a generic website.</li>
+</ul>
+
+<p>You can find a more complete list of both official and community-contributed themes on Hugo&rsquo;s <a href="https://themes.gohugo.io">website</a> and <a href="https://github.com/topics/hugo-theme">Github</a>.</p>
+
+<p>In this tutorial, you&rsquo;ll install, and configure Hugo to generate static site as a blog. Next, you&rsquo;ll learn how to host your blog using Github Pages so everyone can access and read your awesome stories.</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>Before following this tutorial make sure you have:</p>
+
+<ul>
+<li><p>Git - You should have Git installed on your local machine. You can check if Git is installed on your computer and go through the installation process for your operating system by running <code>git --version</code> command. You&rsquo;ll see git version running on your machine otherwise you have to install git by following this <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">docs</a>.</p></li>
+
+<li><p>Github account - This is mandatory in order to host your site later on. Make yourself a Github account signing up on the front page.</p></li>
+
+<li><p>Text Editor - You need a text editor such as <a href="https://code.visualstudio.com">VSCode</a>, <a href="https://atom.io">Atom</a>, or <a href="https://www.sublimetext.com">Sublime</a> to edit Hugo&rsquo;s configuration file and add some content to your site. If you are using Mac or Linux and looking for some heat you can use <code>nano</code> or <code>vim</code> text editor that comes out of the box</p></li>
+</ul>
+
+<h2 id="step-1-install-hugo">Step 1 — Install Hugo</h2>
+
+<p>Note : In this tutorial I am using a Mac, if you are using Debian/Ubuntu or linux based OS you can follow Hugo&rsquo;s official <a href="https://gohugo.io/getting-started/installing#linux">documentation</a>.</p>
+
+<p>Using <a href="https://brew.sh">Homebrew</a>, you can install Hugo with the following one-liner :</p>
+
+<pre><code class="language-shell">$ brew install hugo
+</code></pre>
+
+<p>Then verify your new installation by running this command :</p>
+
+<pre><code class="language-shell">$ hugo version
+</code></pre>
+
+<h2 id="step-2-create-a-new-blog">Step 2 — Create a New Blog</h2>
+
+<p>Create a new site that will become your blog. Command below will create a new Hugo site in a folder named <code>delicious-blog</code>.</p>
+
+<pre><code class="language-shell">$ hugo new site delicious-blog
+</code></pre>
+
+<h2 id="step-3-theme-your-blog">Step 3 — Theme Your Blog</h2>
+
+<p>Next thing is to add some themes to your blog. With Hugo, you can either theme your blog yourself or use one of the beautiful, ready-made themes. I choose <code>cocoa</code> beacuse it is deliciolsly simple. To install it :</p>
+
+<p>Make sure you are inside your blog directory :</p>
+
+<pre><code class="language-shell">$ cd delicious-blog
+</code></pre>
+
+<p>Clone <code>cocoa</code> theme into the <code>themes/cocoa</code> directory and copy <code>config.toml</code> file from <code>cocoa</code> to your site.</p>
+
+<pre><code class="language-shell">$ git clone https://github.com/nishanths/cocoa-hugo-theme.git themes/cocoa
+$ cp themes/cocoa/exampleSite/config.toml ./
+</code></pre>
+
+<p>Adjust your site configuration by opening <code>config.toml</code> file using your favorite text editor. Fortunately <code>cocoa</code> gives a clear explanation line-by-line about this configuration.</p>
+
+<p>If you want to add more themes, just repeat the above steps. For most themes it will works flawlessly.</p>
+
+<h2 id="step-4-add-some-awesome-content">Step 4 — Add Some Awesome Content</h2>
+
+<p>There are more than one way you can create content for Hugo. The easiest way is to use Hugo&rsquo;s cli :</p>
+
+<pre><code class="language-shell">$ hugo new blog/my-first-post.md
+</code></pre>
+
+<p>This basicaly will create a <code>my-first-post.md</code> file inside <code>blog</code> folder (Hugo will create it automatically if doesn&rsquo;t exist) inside <code>content</code> folder. Edit the newly created content file if you want.</p>
+
+<pre><code>---
+title: &quot;How To Create a Blog with Hugo and Github&quot;
+date: 2018-04-09T08:51:07+07:00
+draft: true
+---
+
+## Introduction
+
+Do you want to start a blog to share your latest adventures with various software frameworks? YOUR CONTENT GOES HERE ...
+</code></pre>
+
+<p>In case you&rsquo;re curious, the generated file has a certain header to begin with — it called Front Matter. You can read more details about this <a href="https://gohugo.io/content-management/front-matter">Front Matter</a> in Hugo&rsquo;s official documentation.</p>
+
+<h2 id="step-5-run-your-site-locally">Step 5 — Run Your Site Locally</h2>
+
+<p>Now, start the Hugo server with drafts enabled to see what&rsquo;s your site looks like :</p>
+
+<pre><code class="language-shell">$ hugo server -D
+</code></pre>
+
+<p>Navaigate your browser to <a href="http://127.0.0.1:1313"><code>http://127.0.0.1:1313</code></a> and see the magic 🎉. Apply different themes, tweak the configuration file and add more content until you satisfied with your result.</p>
+
+<h2 id="step-6-deploy-to-github">Step 6 — Deploy to Github</h2>
+
+<p>It&rsquo;s not complete if your site just running on your machine, people still cannot access it yet. From their documentation, you can host your new Hugo website virtually anywhere. One of them is <a href="https://pages.github.com">Github Pages</a>, It&rsquo;s free, easy to setup and supports HTTPS!</p>
+
+<ol>
+<li><p>Create a <code>&lt;YOUR_PROJECT&gt;</code> e.g (<code>delicious-blog</code>) repository with your Github account. This repository will hold all Hugo&rsquo;s content, configuration, and other files.</p></li>
+
+<li><p>Create a <code>&lt;USERNAME&gt;.github.io</code> repository (Yes! You need two repository). Make sure your <code>&lt;USERNAME&gt;</code> is your real username, otherwise you site will not showing up properly. This repository will hold fully rendered version of your site.</p>
+
+<blockquote>
+<p>Make sure your baseurl key-value in your site configuration reflects the full URL of your GitHub pages repository. e.g. <code>baseurl = https://&lt;USERNAME&gt;.github.io</code></p>
+</blockquote></li>
+
+<li><p>Inside your site directory, create a new git project and add a new remote url.</p>
+
+<pre><code class="language-shell">$ git init
+$ git remote add https://github.com/&lt;USERNAME&gt;/&lt;YOUR_PROJECT&gt;`.git public
+</code></pre></li>
+
+<li><p>Remove public folder and add git <a href="https://blog.github.com/2016-02-01-working-with-submodules/">submodule</a>. So when you run hugo command to build your site it will lives on public folder but have different remote origin.</p>
+
+<pre><code class="language-shell">$ rm -rfd public/
+$ git submodule add https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io`.git
+</code></pre></li>
+
+<li><p>Build your site and push everything to Github.</p>
+
+<pre><code class="language-shell">$ hugo -t cocoa
+$ git add .
+$ git commit -t 'Initital commit' &amp;&amp; git push origin master
+</code></pre>
+
+<p>Change directory to public, make commit and push everything in it. Note, this will publish into <code>https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io</code> repository.</p>
+
+<pre><code class="language-shell">$ cd public
+$ git add .
+$ git commit -t 'Initital commit' &amp;&amp; git push origin master
+$ cd ..
+</code></pre></li>
+</ol>
+
+<p>That’s it!</p>
+
+<p>Your personal page should be up and running at <code>https://&lt;USERNAME&gt;.github.io</code> within a couple minutes.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In this tutorial we downloaded, configured, and host a complete Hugo site. If you follow all the steps above you should see something like <a href="http://husnulanwari.github.io">http://husnulanwari.github.io</a> (this site). You can take a look it&rsquo;s source code at my <a href="https://github.com/husnulanwari">Github</a>.</p>
+
+<p>If you&rsquo;d like to learn more about how configure, customize your hugo site even further and see what else Hugo can do, visit the official Hugo <a href="https://gohugo.io/documentation">documentation</a>. You&rsquo;ll find a lot of resource starting from adding static page, comment, create your own theme and many more.</p>
+
+<p>And, if you have an issue or idea to make Hugo better, feel free to contribute in their Github <a href="https://github.com/gohugoio/hugo">repository</a>.</p>
+
+                <br>
+		<p class="back-to-posts"><a href="https://husnulanwari.github.io/blog/">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/go.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/bash.min.js"></script>
+  
+
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+
+
+</body>
+</html>
+

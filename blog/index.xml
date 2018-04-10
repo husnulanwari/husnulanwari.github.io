@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Husnul Anwari</title>
+    <link>https://husnulanwari.github.io/blog/</link>
+    <description>Recent content in Blog on Husnul Anwari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 09 Apr 2018 08:51:07 +0700</lastBuildDate>
+    
+	<atom:link href="https://husnulanwari.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How To Create a Blog with Hugo and Github</title>
+      <link>https://husnulanwari.github.io/blog/how-to-create-a-blog-with-hugo-and-github/</link>
+      <pubDate>Mon, 09 Apr 2018 08:51:07 +0700</pubDate>
+      
+      <guid>https://husnulanwari.github.io/blog/how-to-create-a-blog-with-hugo-and-github/</guid>
+      <description>Introduction Do you want to start a blog to share your latest adventures with various software frameworks? Do you love a project that is poorly documented and want to fix that? Or do you just want to create a personal website? But you don&amp;rsquo;t have time to build it, setup the database, and creating a theme. The answer is Hugo — with Hugo you could build your own blog in minutes.</description>
+    </item>
+    
+  </channel>
+</rss>
